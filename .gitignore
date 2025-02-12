@@ -1,0 +1,57 @@
+# Ignore everything
+*
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# Don't ignore .gitignore
+!.gitignore
+
+# Don't ignore Verilog source files
+!*.v
+!*.sv
+
+# Don't ignore constraint files
+!*.xdc
+
+# Don't ignore Vivado project files
+!*.xpr
+
+# Don't ignore IP files
+!*.xci
+!*.xcix
+
+# Don't ignore block design files
+!*.bd
+
+# Don't ignore simulation files
+!*.wcfg
+!*.sim
+
+# Ignore Vivado generated directories
+.Xil/
+.cache/
+vivado.cache/
+vivado.hw/
+vivado.ip_user_files/
+vivado.runs/
+vivado.sim/
+
+# Ignore log files
+*.log
+*.jou
+*.rpt
+*.vdi
+
+# Ignore bitstream files
+*.bit
+*.bin
+*.mcs
+
+# Ignore checkpoint files
+*.dcp
+
+digilent-xdc-master/
+!*.md
+!LICENSE
+!*.circ*
