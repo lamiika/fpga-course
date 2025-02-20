@@ -4,7 +4,7 @@ module testbench_AndGate();
   reg a, b;
   wire y;
 
-  AndGate dut(a,b,y);
+  AndGate uut(a,b,y);
   initial begin
     a=0; b=0; #10;
     a=0; b=1; #10;
